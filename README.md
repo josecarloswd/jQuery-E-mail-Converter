@@ -23,7 +23,7 @@ The script will convert to:
 <span class="email"><a href="mailto:your-name@servername.com">your-name@servername.com</a></span>
 ```
 
-You can set false the 'mailTo' parameter to remove the link address.
+You can set to false the 'mailTo' parameter to remove the link address.
 Result: 
 ```html
 <span class="email">your-name@servername.com</span>
