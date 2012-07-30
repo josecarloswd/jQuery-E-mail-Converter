@@ -24,7 +24,7 @@
 		var settings = $.extend({} , defaults, options);
 		
 		return this.each (function(){
-			var emailAddress = $(this).text().replace(/\at/g,'@').replace(/\sdot/g,'.').replace(/\s+/g,'').toLowerCase();	
+			var emailAddress = $(this).text().replace(/\s+at/g,'@').replace(/\sdot/g,'.').replace(/\s+/g,'').toLowerCase();	
 			
 			if(settings.mailTo){
 				var link = 'mailto:' + emailAddress;
