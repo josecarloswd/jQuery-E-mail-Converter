@@ -3,7 +3,7 @@ jQuery E-mail Converter
 
 Anti-spam script to prevent spam bots.
 
-#Usage (html file):
+#Usage:
 ```html
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
