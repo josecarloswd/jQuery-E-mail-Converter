@@ -3,6 +3,8 @@ jQuery E-mail Converter
 
 Anti-spam script to prevent spam bots.
 
+You can use this script when there is a need to enter the e-mail in text format, the body of the html.
+
 #Usage:
 ```html
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
