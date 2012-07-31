@@ -12,9 +12,7 @@ You can use this script when there is a need to enter the e-mail in text format,
 <script src="js/jquery.emailconverter.js"></script>
 <script>
 $(function() {
-  $('.email').emailConverter({
-		'mailTo' : false //remove the link address and return pure e-mail text
-	});
+  $('.email').emailConverter();
 }); 
 </script>
 
@@ -26,6 +24,13 @@ The script will convert to:
 ```
 
 You can set to false the 'mailTo' parameter to remove the link address.
+```html
+$(function() {
+  $('.email').emailConverter({
+		'mailTo' : false //remove the link address and return pure e-mail text
+	});
+}); 
+```
 Result: 
 ```html
 <span class="email">your-name@servername.com</span>
